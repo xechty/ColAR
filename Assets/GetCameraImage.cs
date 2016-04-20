@@ -12,6 +12,13 @@ public class GetCameraImage : MonoBehaviour
     private bool m_LogInfo = true;
     public Material newMaterialRef;
 
+    private Region_Capture monobehaviour;
+    private Camera RenderTextureCamera;
+    [Space(20)]
+    public GameObject Region_Capture;
+    [Space(20)]
+    public bool FreezeEnable = false;
+
 
     void Start()
     {
@@ -21,6 +28,41 @@ public class GetCameraImage : MonoBehaviour
         {
             Debug.Log("ImageTargetBehaviour not found ");
         }
+
+        RenderTextureCamera = Region_Capture.GetComponentInChildren<Camera>();
+
+        monobehaviour = Region_Capture.GetComponent<Region_Capture>();
+
+        if (FreezeEnable)
+        {
+            monobehaviour.CheckMarkerPosition = true;
+        }
+
+        StartCoroutine(WaitForTexture());
+    }
+
+    private IEnumerator WaitForTexture()
+    {
+
+        yield return new WaitForEndOfFrame();
+
+        if (RenderTextureCamera.targetTexture)
+        {
+            GetComponent<Renderer>().material.SetTexture("_MainTex", RenderTextureCamera.targetTexture);
+        }
+        else StartCoroutine(WaitForTexture());
+
+    }
+
+
+
+    void LateUpdate()
+    {
+
+        if (FreezeEnable && monobehaviour.MarkerIsOUT)
+            RenderTextureCamera.enabled = false;
+
+        else RenderTextureCamera.enabled = true;
     }
 
     public void Update()
@@ -86,19 +128,19 @@ public class GetCameraImage : MonoBehaviour
             Debug.Log("target point in screen coords (top left): " + screenPoint4.x + ", " + screenPoint4.y);
 
 
-            float[] xValues = { screenPoint.x, screenPoint2.x, screenPoint3.x, screenPoint.x };
-            float[] yValues = { screenPoint.y, screenPoint2.y, screenPoint3.y, screenPoint.y };
+            /*float[] xValues = { screenPoint.x, screenPoint2.x, screenPoint3.x, screenPoint.x };
+            float[] yValues = { screenPoint.y, screenPoint2.y, screenPoint3.y, screenPoint.y };*/
 
-            image.CopyToTexture(tex);
+            //image.CopyToTexture(tex);
 
-            Color newBlack = new Color(0,0,0);
+            /*Color newBlack = new Color(0,0,0);
 
             Resolution res = Screen.currentResolution;
 
             /*int minY = (int)(yValues.Min() / res.height) * tex.height;
             int minX = (int)(xValues.Min() / res.width) * tex.width;
             int maxY = (int)(yValues.Max() / res.height) * tex.height;
-            int maxX = (int)(xValues.Max() / res.width) * tex.width;*/
+            int maxX = (int)(xValues.Max() / res.width) * tex.width;
 
             // Will need to change each coordinate to match texture size
             screenPoint.x = (screenPoint.x / res.width) * tex.width;
@@ -122,10 +164,10 @@ public class GetCameraImage : MonoBehaviour
 
             }
 
-            Debug.Log("dimensions of texture: " + tex.height + ", " + tex.width);
+            Debug.Log("dimensions of texture: " + tex.height + ", " + tex.width);*/
 
-            newMaterialRef.mainTexture = tex;
-            tex.Apply();
+            ////newMaterialRef.mainTexture = tex;
+            //tex.Apply();
 
             // Encode texture into PNG
             //byte[] bytes = tex.EncodeToPNG();

@@ -127,6 +127,9 @@
     <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
     <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Region_Capture\ReadMe.txt" />
+    <None Include="Assets\Region_Capture\Samples\ReadMe_Samples.txt" />
+    <None Include="Assets\Region_Capture\Shaders\Set_Matrix_To_Material.shader" />
     <None Include="Assets\StreamingAssets\QCAR\Image_Targets.xml" />
     <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
