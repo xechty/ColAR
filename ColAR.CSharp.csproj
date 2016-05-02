@@ -136,7 +136,6 @@
     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
-    <Compile Include="Assets\play_animation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
