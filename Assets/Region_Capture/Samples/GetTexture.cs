@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class GetTexture : MonoBehaviour {
 
 	private Region_Capture monobehaviour;
@@ -10,9 +11,9 @@ public class GetTexture : MonoBehaviour {
 	[Space(20)]
 	public bool FreezeEnable = false;
 
-	void Start () {
-	
-	RenderTextureCamera = Region_Capture.GetComponentInChildren<Camera>();
+    void Start () {
+
+        RenderTextureCamera = Region_Capture.GetComponentInChildren<Camera>();
 
 		monobehaviour = Region_Capture.GetComponent<Region_Capture> ();
 

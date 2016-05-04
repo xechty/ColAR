@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/tmp/tmp-deduplicated4231603004708545434/vr/gvr/platform/common/android/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="alignment_marker_color">#cccccc</color>
+    <!-- From: file:/tmp/tmp-deduplicated4231603004708545434/vr/gvr/platform/common/android/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="alignment_marker_margin">15dip</dimen>
+    <dimen name="alignment_marker_thickness">4dip</dimen>
+    <dimen name="transition_bottom_bar_height">112dip</dimen>
+    <!-- From: file:/tmp/tmp-deduplicated4231603004708545434/vr/gvr/platform/common/android/res/values/strings.xml -->
+    <eat-comment/>
+    <string description="Button text used as an affirmative action. [CHAR LIMIT=20]" name="got_it">
+    GOT IT
+  </string>
+    <string description=" Message asking the user to place their phone into Cardboard. This is a generic message used in the absence of knowing the current viewer. [CHAR LIMIT=50]" name="place_your_phone_into_cardboard">
+      Place your phone into your Cardboard viewer
+    </string>
+    <string description=" Message format asking the user to place their phone into the Cardboard compatible viewer that is currently configured. [CHAR LIMIT=50]" name="place_your_viewer_into_viewer_format">
+      Place your phone into your <ns1:g example="Cardboard I/O 2015" id="viewer_name">%s</ns1:g> viewer
+    </string>
+    <string description=" Text which when pressed, takes the user to the view that allows them to switch their Cardboard compatible viewer. [CHAR LIMIT=10]" name="switch_viewer_action">
+      Switch
+    </string>
+    <string description=" Prompt asking if the user wants to switch their Cardboard compatible viewer. [CHAR LIMIT=20]" name="switch_viewer_prompt">
+      Using a different viewer?
+    </string>
+    <string description=" Title of dialog shown after the user pairs with their Cardboard viewer. [CHAR LIMIT=30]" name="viewer_configured_dialog_title">
+    Viewer configured!
+  </string>
+    <string description=" Message format shown after the user successfully pairs with a Cardboard viewer. viewer_name refers to the specific Cardboard viewer. [CHAR LIMIT=80]" name="viewer_configured_message_format">
+    The app is now configured for a <ns1:g example="Cardboard I/O 2015" id="viewer_name">%s</ns1:g> viewer.
+  </string>
+    <!-- From: file:/tmp/tmp-deduplicated4231603004708545434/vr/gvr/platform/common/android/res/values/style.xml -->
+    <eat-comment/>
+    <style name="CardboardDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="UiButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">9dip</item>
+    </style>
+</resources>

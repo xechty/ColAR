@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/tmp/tmp-deduplicated4231603004708545434/blaze-out/arm-linux-androideabi-4.8-bionic-libcxx-armv7a-opt/genfiles/vr/gvr/platform/common/android/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string msgid="607483269550346980" name="got_it">"我知道了"</string>
+    <string msgid="3033913737471886041" name="place_your_phone_into_cardboard">"將您的手機放入 Cardboard 檢視器中。"</string>
+    <string msgid="8644661894594395876" name="place_your_viewer_into_viewer_format">"將您的手機放入 <ns1:g id="VIEWER_NAME">%s</ns1:g> 檢視器中"</string>
+    <string msgid="1762411366348526647" name="switch_viewer_action">"切換"</string>
+    <string msgid="4518576606713444785" name="switch_viewer_prompt">"要使用不同的檢視器嗎？"</string>
+    <string msgid="4804039743799852394" name="viewer_configured_dialog_title">"檢視器已經設定完成！"</string>
+    <string msgid="4463041247783043262" name="viewer_configured_message_format">"系統現已針對 <ns1:g id="VIEWER_NAME">%s</ns1:g> 檢視器完成應用程式設定。"</string>
+</resources>

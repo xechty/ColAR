@@ -91,6 +91,7 @@
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
     <Compile Include="Assets\GetCameraImage.cs" />
+    <Compile Include="Assets\PlayAnimation.cs" />
     <Compile Include="Assets\Region_Capture\Samples\GetTexture.cs" />
     <Compile Include="Assets\Region_Capture\Scripts\DisableSystemUI.cs" />
     <Compile Include="Assets\Region_Capture\Scripts\RC_Extension.cs" />
@@ -136,6 +137,7 @@
     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+    <Compile Include="Assets\combineMesh.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
@@ -146,6 +148,7 @@
     <None Include="Assets\Region_Capture\ReadMe.txt" />
     <None Include="Assets\Region_Capture\Samples\ReadMe_Samples.txt" />
     <None Include="Assets\Region_Capture\Shaders\Set_Matrix_To_Material.shader" />
+    <None Include="Assets\StreamingAssets\QCAR\ColAR.xml" />
     <None Include="Assets\StreamingAssets\QCAR\Image_Targets.xml" />
     <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
