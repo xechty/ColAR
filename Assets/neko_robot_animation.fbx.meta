@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: ec74952235f84dd45996f9a58008266b
+timeCreated: 1462330121
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Head7
+    100002: joint10
+    100004: joint11
+    100006: joint12
+    100008: joint13
+    100010: joint14
+    100012: joint2
+    100014: joint3
+    100016: joint4
+    100018: joint5
+    100020: joint6
+    100022: joint7
+    100024: joint8
+    100026: joint9
+    100028: left_knee
+    100030: left_shoulder
+    100032: neck
+    100034: //RootNode
+    100036: pCylinder6
+    100038: right_knee
+    100040: right_shoulder
+    100042: tail
+    100044: torso
+    400000: Head7
+    400002: joint10
+    400004: joint11
+    400006: joint12
+    400008: joint13
+    400010: joint14
+    400012: joint2
+    400014: joint3
+    400016: joint4
+    400018: joint5
+    400020: joint6
+    400022: joint7
+    400024: joint8
+    400026: joint9
+    400028: left_knee
+    400030: left_shoulder
+    400032: neck
+    400034: //RootNode
+    400036: pCylinder6
+    400038: right_knee
+    400040: right_shoulder
+    400042: tail
+    400044: torso
+    4300000: Head7
+    7400000: Touch
+    7400002: Idle
+    9500000: //RootNode
+    13700000: Head7
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Head7
+        weight: 1
+      - path: pCylinder6
+        weight: 1
+      - path: pCylinder6/left_knee
+        weight: 1
+      - path: pCylinder6/left_knee/joint12
+        weight: 1
+      - path: pCylinder6/right_knee
+        weight: 1
+      - path: pCylinder6/right_knee/joint11
+        weight: 1
+      - path: pCylinder6/tail
+        weight: 1
+      - path: pCylinder6/tail/joint2
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: pCylinder6/torso
+        weight: 1
+      - path: pCylinder6/torso/left_shoulder
+        weight: 1
+      - path: pCylinder6/torso/left_shoulder/joint13
+        weight: 1
+      - path: pCylinder6/torso/neck
+        weight: 1
+      - path: pCylinder6/torso/right_shoulder
+        weight: 1
+      - path: pCylinder6/torso/right_shoulder/joint14
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Touch
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Head7
+        weight: 1
+      - path: pCylinder6
+        weight: 1
+      - path: pCylinder6/left_knee
+        weight: 1
+      - path: pCylinder6/left_knee/joint12
+        weight: 1
+      - path: pCylinder6/right_knee
+        weight: 1
+      - path: pCylinder6/right_knee/joint11
+        weight: 1
+      - path: pCylinder6/tail
+        weight: 1
+      - path: pCylinder6/tail/joint2
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: pCylinder6/tail/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: pCylinder6/torso
+        weight: 1
+      - path: pCylinder6/torso/left_shoulder
+        weight: 1
+      - path: pCylinder6/torso/left_shoulder/joint13
+        weight: 1
+      - path: pCylinder6/torso/neck
+        weight: 1
+      - path: pCylinder6/torso/right_shoulder
+        weight: 1
+      - path: pCylinder6/torso/right_shoulder/joint14
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
